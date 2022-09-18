@@ -80,7 +80,13 @@ public class Silly implements Comparable<Silly> {
      *       Make sure you document this method!
      */
 
-    // Takes in two strings as parameters and sets this.name to the concatenation of the two strings
+    /**
+     * Takes in two strings as parameters and sets this.name to the concatenation of the two strings
+     *
+     * @param str1 First string taken in
+     * @param str2 Second string taken in
+     */
+
     public Silly(String str1, String str2) {
         this.name = str1 + str2;
     }
